@@ -1,0 +1,195 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="87e3ba02-159c-469a-8066-593bcfb6ac34" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MAM</ID>
+  <Name>MAM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-13751" scrolltop="-1920" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31459" y="17595" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblYear" left="-6277" top="2090" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000af050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_tblYear" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblRegionTarget" left="429" top="1459" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3175" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000670c0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_tblRegionTarget" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="tblRegion" left="7323" top="737" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3466" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00008a0d0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_tblRegion" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="3304" top="2521" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4319" height="1078" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[FK_tblRegionTarget_tblRegion]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="18" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7323" y="3199" />
+                    <point x="5345" y="3199" />
+                    <point x="5345" y="2821" />
+                    <point x="3604" y="2821" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-3577" top="1421" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4306" height="1796" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblRegionTarget-tblYear]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="13" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-3277" y="2817" />
+                    <point x="-1543" y="2817" />
+                    <point x="-1543" y="1721" />
+                    <point x="429" y="1721" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>-13751</DiagramViewPortLeft>
+            <DiagramViewPortTop>-1920</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>MAM</DataSourceID>
+  <Schema>
+    <xs:schema id="MAM" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="MAM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="98f98a73-191c-43c5-af60-8d2e761238e7">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_tblYear" msprop:design-time-name="49dbefa0-c2dc-4a49-89c9-94e18866caf8" msprop:FriendlyName="tblYear" msprop:DbSchemaName="dbo" msprop:DbTableName="tblYear" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="YearNumber" msprop:design-time-name="4e3feac9-b603-4804-bb38-ac73987a2632" msprop:DbColumnName="YearNumber" msprop:FriendlyName="YearNumber" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_tblRegionTarget" msprop:design-time-name="b960e38d-380a-4887-aa43-50f82c618823" msprop:FriendlyName="tblRegionTarget" msprop:DbSchemaName="dbo" msprop:DbTableName="tblRegionTarget" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RegionTargetId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ac6c64cd-bceb-43dd-a429-d0761ef9e336" msprop:DbColumnName="RegionTargetId" msprop:FriendlyName="RegionTargetId" type="xs:int" />
+                  <xs:element name="RegionId" msprop:design-time-name="0ae54a6e-32a9-49f4-8904-50f188a5c588" msprop:DbColumnName="RegionId" msprop:FriendlyName="RegionId" type="xs:int" minOccurs="0" />
+                  <xs:element name="YearNumber" msprop:design-time-name="de7b3d6e-fc21-40bb-a842-2344089054da" msprop:DbColumnName="YearNumber" msprop:FriendlyName="YearNumber" type="xs:int" minOccurs="0" />
+                  <xs:element name="Target" msprop:design-time-name="7cefd27c-3170-4232-8d40-1b6cb9052931" msprop:DbColumnName="Target" msprop:FriendlyName="Target" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_tblRegion" msprop:design-time-name="84b594f5-1659-46d8-b8a4-ec2c391bacf8" msprop:FriendlyName="tblRegion" msprop:DbSchemaName="dbo" msprop:DbTableName="tblRegion" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RegionId" msprop:design-time-name="65d9e810-3fcb-4a72-977e-177ee2432760" msprop:DbColumnName="RegionId" msprop:FriendlyName="RegionId" type="xs:int" />
+                  <xs:element name="RegionName" msprop:design-time-name="63f708bb-6c78-45dc-9d9d-7889c9193b68" msprop:DbColumnName="RegionName" msprop:FriendlyName="RegionName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="QuadrantId" msprop:design-time-name="6980461f-1fe1-446c-a2a7-da2cb8322f15" msprop:DbColumnName="QuadrantId" msprop:FriendlyName="QuadrantId" type="xs:int" minOccurs="0" />
+                  <xs:element name="RegionManagerId" msprop:design-time-name="cae110de-6bae-470c-99ff-009f07d6bc35" msprop:DbColumnName="RegionManagerId" msprop:FriendlyName="RegionManagerId" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_tblYear" />
+          <xs:field xpath="YearNumber" />
+        </xs:unique>
+        <xs:unique name="dbo_tblRegionTarget_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_tblRegionTarget" />
+          <xs:field xpath="RegionTargetId" />
+        </xs:unique>
+        <xs:unique name="dbo_tblRegion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_tblRegion" />
+          <xs:field xpath="RegionId" />
+        </xs:unique>
+        <xs:keyref name="FK_tblRegionTarget_tblRegion" refer="dbo_tblRegion_Constraint1">
+          <xs:selector xpath=".//dbo_tblRegionTarget" />
+          <xs:field xpath="RegionId" />
+        </xs:keyref>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="tblRegionTarget-tblYear" msdata:parent="dbo_tblYear" msdata:child="dbo_tblRegionTarget" msdata:parentkey="YearNumber" msdata:childkey="YearNumber" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <MAM xmlns="" />
+  </Schema>
+</DataSourceView>

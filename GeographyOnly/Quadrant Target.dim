@@ -1,0 +1,196 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="aabb6517-5455-4ecf-86df-9d0d6d0d968f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Quadrant Target</ID>
+  <Name>Quadrant Target</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3657" scrolltop="-5927" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8096" y="16272" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="QuadrantTarget" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3440" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000700d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblQuadrantTarget" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3657</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5927</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="140">
+            <Shape Id="Quadrant Target Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quadrant Target Id" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Lower Target" Expanded="false">
+              <Attributes>
+                <Attribute Id="Lower Target" />
+              </Attributes>
+              <Position x="200" y="20" />
+            </Shape>
+            <Shape Id="Lower Bucket" Expanded="false">
+              <Attributes>
+                <Attribute Id="Lower Bucket" />
+              </Attributes>
+              <Position x="200" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="570e4cc5-4f37-48a5-90f9-887aed3f65f7">
+    <DataSourceViewID>Geography</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="39b3b999-9e96-449a-815c-11597cb37c18">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1894f8a0-206c-423d-9f3b-d30a772928bc">
+      <ID>Quadrant Target Id</ID>
+      <Name>Quadrant Target Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3fb55731-143f-4637-aaaa-79954cd6f605">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c63f4473-4e67-4350-8222-b9eb87cc23df">
+            <TableID>dbo_tblQuadrantTarget</TableID>
+            <ColumnID>QuadrantTargetId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6626a033-378a-4c56-8c56-0bf6c21ed5ae">
+          <AttributeID>Lower Bucket</AttributeID>
+          <Name>Lower Bucket</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f90c98ed-337a-4932-863a-2a55d757ac7d">
+          <AttributeID>Lower Target</AttributeID>
+          <Name>Lower Target</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dddd31f4-c458-4c88-b185-44193f37f270">
+      <ID>Lower Bucket</ID>
+      <Name>Lower Bucket</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d0a1993f-b68c-42af-bbb4-1231dc4bd32f">
+          <DataType>WChar</DataType>
+          <DataSize>14</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7543e7d0-d928-4ebc-94b0-bc71129ebd11">
+            <TableID>dbo_tblQuadrantTarget</TableID>
+            <ColumnID>LowerBucket</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b9bbfaee-0977-4601-8cdd-283f6a59273c">
+      <ID>Lower Target</ID>
+      <Name>Lower Target</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4799ca2-b855-42f8-bc6c-e38bee96a29c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d9b6b8a0-4a92-4c91-bd0e-3735854e3f4e">
+            <TableID>dbo_tblQuadrantTarget</TableID>
+            <ColumnID>LowerTarget</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <DiscretizationMethod>EqualAreas</DiscretizationMethod>
+      <DiscretizationBucketCount>2</DiscretizationBucketCount>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5ee50cb9-a110-446b-9189-fc97b45f43d6">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="5b0f18cd-cab0-46ab-8c47-845c96272a5e">
+          <ID>Lower Bucket</ID>
+          <Name>Lower Bucket</Name>
+          <SourceAttributeID>Lower Bucket</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="47fa2af2-51cb-4402-bcd0-371915fe0ac3">
+      <ID>Hierarchy 1</ID>
+      <Name>Lowertarget</Name>
+      <Levels>
+        <Level dwd:design-time-name="027f7032-85a9-4a7d-bbf3-0ba539c1089c">
+          <ID>Lower Target</ID>
+          <Name>Lower Target</Name>
+          <SourceAttributeID>Lower Target</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

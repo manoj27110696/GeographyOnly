@@ -1,0 +1,294 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d426009c-1bb0-4dc2-a41e-04510b7e4403" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MAM</ID>
+  <Name>MAM</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10925" scrolltop="-4846" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29025" y="13467" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="tblRegionTarget" left="20" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3175" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000670c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblRegionTarget" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="tblYear" left="107" top="5125" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblYear" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="tblRegion" left="5595" top="0" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3466" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00008a0d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tblRegion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2895" top="963" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_tblRegionTarget_tblRegion]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5595" y="1362" />
+              <point x="3195" y="1362" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1208" top="2425" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[tblRegionTarget-tblYear]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1607" y="5125" />
+              <point x="1607" y="2725" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-10925</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4846</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="0679eb26-70f4-49c2-b81c-206b596550ea">
+      <ID>Region</ID>
+      <Name>Region</Name>
+      <DimensionID>Region</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cfa9ab5f-1ddc-41da-af11-9983a1ae48fe">
+          <AttributeID>Region Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c1da85c7-28ce-49da-ae81-e35451292592">
+      <ID>Year</ID>
+      <Name>Year</Name>
+      <DimensionID>Tbl Year</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="77dde025-4528-47f0-98ee-a03bf110c5d5">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="ccc1d526-bf86-45d1-b808-53d72e92e633">
+      <ID>Perspective</ID>
+      <Name>Perspective</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="ddb2a2ef-3866-4034-bb95-d428157bf7d0">
+          <CubeDimensionID>Region</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2347e538-7d40-44bf-b3a9-e0d308a619df">
+              <AttributeID>Region Id</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="0fc15fba-83d4-44ac-b577-6cfb192aa7ef">
+          <CubeDimensionID>Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c3025234-fe1a-4cea-bf49-91f2f16a3325">
+              <AttributeID>Year Number</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="cfa062ed-ccde-487b-b6fa-635af3b38224">
+          <MeasureGroupID>Tbl Region Target</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="7f03e7e9-0c27-484f-9d02-076c2e9bee87">
+              <MeasureID>Target</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="cdf513cb-a732-47d1-be09-bcf1a1e3252b">
+              <MeasureID>Tbl Region Target Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+  </Perspectives>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="7a69eaee-93b9-484f-861f-edbb2c4f6c8b">
+      <ID>Tbl Region Target</ID>
+      <Name>Tbl Region Target</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4a458a69-8cf7-43d8-a886-3e4a5d65e3b9">
+          <ID>Target</ID>
+          <Name>Target</Name>
+          <Source dwd:design-time-name="84b9e51f-91e2-4668-bcbc-ffc3af6f6fb2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="930c7bb8-8eda-457b-97e2-c0c8d35c1245">
+              <TableID>dbo_tblRegionTarget</TableID>
+              <ColumnID>Target</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3a9720c3-e9c6-4575-9805-1b93aa0e87f4">
+          <ID>Tbl Region Target Count</ID>
+          <Name>Tbl Region Target Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="c677a725-c925-428b-b22f-ad0875e262d9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="190e4415-2e67-4019-8fea-9a7cbf90b23c">
+              <TableID>dbo_tblRegionTarget</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0e4665fe-e185-448b-8555-fd477e466458">
+          <CubeDimensionID>Region</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d38f68f6-683b-49f4-a701-c8afac94dcba">
+              <AttributeID>Region Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fe86b19f-da2b-4f42-87f0-73af79fb6e73">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dddc344e-6e38-4943-8be9-be2e71c4e982">
+                    <TableID>dbo_tblRegionTarget</TableID>
+                    <ColumnID>RegionId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="52664430-b24d-41a6-8975-e309cc44a760">
+          <CubeDimensionID>Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="186a54b3-34db-4e5c-b671-18a7693b640a">
+              <AttributeID>Year Number</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6d8c7c15-14be-4e77-a342-d73d07f58d10">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="694c38de-1f73-4633-838a-404ab1cad64d">
+                    <TableID>dbo_tblRegionTarget</TableID>
+                    <ColumnID>YearNumber</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="781207a8-91de-40f8-94d0-0ad516552b51">
+    <DataSourceViewID>MAM</DataSourceViewID>
+  </Source>
+  <Actions>
+    <Action xsi:type="DrillThroughAction" dwd:design-time-name="a8298639-e100-44eb-8305-a26975f721d3">
+      <ID>Drillthrough Action</ID>
+      <Name>Drillthrough Action</Name>
+      <TargetType>Cells</TargetType>
+      <Target>MeasureGroupMeasures("Tbl Region Target")</Target>
+      <Type>DrillThrough</Type>
+      <Columns>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="af84b825-6601-4f0b-8775-c98089d590b6">
+          <CubeID>MAM</CubeID>
+          <CubeDimensionID>Region</CubeDimensionID>
+          <AttributeID>Region Id</AttributeID>
+          <Type>All</Type>
+        </Column>
+        <Column xsi:type="CubeAttributeBinding" dwd:design-time-name="f07e5b37-889b-45ed-ab8e-ef8f27930244">
+          <CubeID>MAM</CubeID>
+          <CubeDimensionID>Year</CubeDimensionID>
+          <AttributeID>Year Number</AttributeID>
+          <Type>All</Type>
+        </Column>
+      </Columns>
+    </Action>
+  </Actions>
+</Cube>

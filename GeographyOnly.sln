@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "GeographyOnly", "GeographyOnly\GeographyOnly.dwproj", "{E66A2F38-CE55-4E49-8F7D-2D72EF47A7A1}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubes", "Cubes\Cubes.dwproj", "{49650FD9-7E28-4E83-980A-D3CE90880460}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CubeExample2", "CubeExample2\CubeExample2.dwproj", "{02C9A137-1AAE-4223-A7C4-5BCE28497E13}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "cubeExercise3", "cubeExercise3\cubeExercise3.dwproj", "{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E66A2F38-CE55-4E49-8F7D-2D72EF47A7A1}.Development|Default.ActiveCfg = Development
+		{E66A2F38-CE55-4E49-8F7D-2D72EF47A7A1}.Development|Default.Build.0 = Development
+		{E66A2F38-CE55-4E49-8F7D-2D72EF47A7A1}.Development|Default.Deploy.0 = Development
+		{49650FD9-7E28-4E83-980A-D3CE90880460}.Development|Default.ActiveCfg = Development
+		{49650FD9-7E28-4E83-980A-D3CE90880460}.Development|Default.Build.0 = Development
+		{49650FD9-7E28-4E83-980A-D3CE90880460}.Development|Default.Deploy.0 = Development
+		{02C9A137-1AAE-4223-A7C4-5BCE28497E13}.Development|Default.ActiveCfg = Development
+		{02C9A137-1AAE-4223-A7C4-5BCE28497E13}.Development|Default.Build.0 = Development
+		{02C9A137-1AAE-4223-A7C4-5BCE28497E13}.Development|Default.Deploy.0 = Development
+		{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}.Development|Default.ActiveCfg = Development
+		{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}.Development|Default.Build.0 = Development
+		{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
