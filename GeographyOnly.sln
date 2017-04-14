@@ -11,6 +11,10 @@ Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CubeExample2", "CubeExample
 EndProject
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "cubeExercise3", "cubeExercise3\cubeExercise3.dwproj", "{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "hierarchyCubeExercise2", "hierarchyCubeExercise2\hierarchyCubeExercise2.dwproj", "{D9060268-0002-4532-A062-BEEC7B3D351A}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Parent_child_Hierarchy", "Parent_child_Hierarchy\Parent_child_Hierarchy.dwproj", "{393A0DF1-7A3B-4CDC-8098-2A8B1BDAAF14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -28,6 +32,12 @@ Global
 		{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}.Development|Default.ActiveCfg = Development
 		{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}.Development|Default.Build.0 = Development
 		{F3DABD58-3F2C-43A9-8795-0F2B55F44B57}.Development|Default.Deploy.0 = Development
+		{D9060268-0002-4532-A062-BEEC7B3D351A}.Development|Default.ActiveCfg = Development
+		{D9060268-0002-4532-A062-BEEC7B3D351A}.Development|Default.Build.0 = Development
+		{D9060268-0002-4532-A062-BEEC7B3D351A}.Development|Default.Deploy.0 = Development
+		{393A0DF1-7A3B-4CDC-8098-2A8B1BDAAF14}.Development|Default.ActiveCfg = Development
+		{393A0DF1-7A3B-4CDC-8098-2A8B1BDAAF14}.Development|Default.Build.0 = Development
+		{393A0DF1-7A3B-4CDC-8098-2A8B1BDAAF14}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
